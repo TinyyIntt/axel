@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico.png">
+    <title>TinyInt (Emiliano Lopez)</title>
+    <!--CSS Y ICONOS-->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="acordeon.css">
+    <link rel="stylesheet" href="https://ar.pinterest.com/">
+    <link rel="stylesheet" href="https://i.pinimg.com/564x/9d/ba/d5/9dbad5f36b504e921b31311fda9b6a9c.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="ico.png">
+            <a href="#" class="logo"><span style="color:#d3d3d3">TINY</span><span style="color:#780001">INT</span></a>
+        </div>
+
+        <ul class="navlist">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#Quienes">Datos Personales</a></li>
+            <li><a href="#Servicios">Servicios</a></li>
+            <li><a href="#Intereses">Intereses</a></li>
+            <li><a href="#Contactarnos">Contacto</a></li>
+        </ul>
+        <div class="bi bi-list" id="menu-icon"></div>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-img" id="home img"><img src="https://i.pinimg.com/564x/77/fd/07/77fd0740641cfa86d973ff04d37ca92e.jpg"></div>
+        <div class="home-text">
+		    <h1>HOLA!</h1>
+            <p>¡Bienvenidos a mi página personal! Mi nombre es Emiliano y soy un empleado técnico en programación de TinyInt, aquí podrás ver información básica sobre mí,
+                 además de mis intereses personales, mi contacto, los servicios que brindo y mis redes sociales. Gracias por su visita :)</p>
+            <div class="home-btn">
+		          <button class="btn" onclick="location.href='#Quienes'">EXPLORAR</button>
+            </div>
+        </div>
+	</section>
+
+
+    <section class="Quienes" id="Quienes">
+        <h2>Información sobre mí</h2>
+        <p> Me llamo Emiliano López, tengo 17 años y vivo en San Martín. Actualmente estudio en la Escuela Secunadaria Técnica N°5 Galileo Galilei, con especialidad en programación.
+            Vivo con mi familia, tengo una tortuga y un pez. Me gusta mucho la música, los juegos y mi novia linda que la amo muchísimo.<br>
+            Soy una persona muy básica que necesita de poco para ser feliz. Busco que las personas a mi alrededor estén bien al igual que yo.<br>
+            Mis puntos fuertes son la determinación, el esfuerzo, la perfección y los números. Como desventaja no soy muy creativo, pero intento amoldarme a todos los 
+            lugares y situaciones que me encuentre.
+        </p>
+    </section>
+
+    <section class="Servicios" id="Servicios">
+      <h2>Servicios</h2>
+      <div class="Serv">
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/db/cd/1b/dbcd1b3fefd134391fa1e0e59c6da877.jpg">
+          <h3>Mantenimiento de equipos</h3>
+          <button class="btn" onclick="location.href='#Contactarnos'">ORDENAR</button>
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/9d/ba/d5/9dbad5f36b504e921b31311fda9b6a9c.jpg" alt="">
+          <h3>Instalacion de S.O</h3>
+          <button class="btn" onclick="location.href='#Contactarnos'">ORDENAR</button>
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/e2/3d/7c/e23d7c92dc4c8bee8ac2d8b85ad69bc0.jpg" alt="">
+          <h3>Recuperacion de datos</h3>
+          <button class="btn" onclick="location.href='#Contactarnos'">ORDENAR</button>
+        </div>
+      </div>
+    </section>
+    
+    <section class="Intereses" id="Intereses">
+        <h2>Intereses</h2>
+        <div class="Intereses">
+            <div id="acordeon">
+                <div class="wrap">
+                
+                    <ul><b>
+                      <li> 
+                        <h3>Jueguitos </h3>
+                        <br>
+                        <p>Me gustan mucho los juegos en general, pero especialmente los rítimicos como el osu!, Geometry dash, Quaver, etc. </p>
+                      </li>
+                      <li> 
+                        <h3>Música pro</h3>
+                        <p>Me gustan muchos géneros de música pero especialmente el rock y el metal, mis bandas favoritas son, slipknot, deftones, megadeth, sepultura, entre otras.</p>
+                      </li>
+                      <li> 
+                        <h3>Deportes</h3><br>
+                        <p>Me gusta mucho el deporte, especialmente el fútbol pero tambien basketball, voley, boxeo, etc. En el fútbol soy fanático de Chacarita jrs por mi barrio San Martín.</p>
+                      </li>
+                      <li> 
+                        <h3>Tecno</h3>
+                        <p>La tecnología es algo que me gusta desde hace mucho tiempo, siempre estuve en contacto con aparatos tecnologicos y me gusta el avance que está teniendo además de la programación de esta misma.</p>
+                      </li>
+                    </ul></b>
+                </div>
+                </div>
+      </div>
+
+    </section>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <section class="Contactarnos" id="Contactarnos">
+        <h2>Contacto</h2>
+        <a href="mailto:e.lopez@galileo.edu.ar" target="_blank"><span style= "color:coral">Mail</span>: <span style="text-decoration: underline">e.lopez@galileo.edu.ar</span></a><br><br>
+        <a href="https://api.whatsapp.com/send?phone=541156574521" target="_blank"><span style= "color:rgb(53, 184, 86)">Whatsapp</span>:
+          <span style="text-decoration: underline">+541156574521</span></a>
+    </section>
+
+
+    <footer>
+        <div class="pie">
+            <h3><span style="color:#d3d3d3">TINY</span><span style="color:#780001">INT</span></h3>
+
+            <ul class="icons">
+                <a href="https://www.youtube.com/@emilianolopez6112"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.instagram.com/emi_swiitz/"><i class="bi bi-instagram"></i></a>
+            </ul>
+
+            <p>copyright &copy;2023</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {font-size:1.7em; color:white;}
+
+body {
+	background-color: #033008;
+	font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+	padding-top: 80px;
+	color: white;
+	text-align: center;
+}
+h2 {
+	color: white;
+}
+h3 {
+	color: white;
+	text-align: center;
+}
+
+section {
+	padding: 80px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.box {
+	display:grid;
+	padding: 10px;
+	grid-column: 1;
+	background-color: #cf5f69;
+	height: 100px;
+	border-style: solid;
+	border-width:7px;
+	border-color: #55a630;
+	align-items:left;
+}
+
+label {
+	font-size: 19px;
+	color: white;
+}
+
+
+.item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+button {
+	background-color: #55a630;
+	margin-right: 80;
+	padding: 10px;
+	color: white;
+	border-radius: 4px;
+}
+button:hover {
+	background-color: black;
+	transition: .5s;
+}

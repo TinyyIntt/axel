@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>hHOla!</title>
+</head>
+<body bgcolor="#199">
+<fieldset>
+<legend>Ingrese dos numeros</legend>
+<label for="">Numero 1:</label>
+<input type="text" id="txtN1">
+<br><br>
+
+<label for="">Numero 2:</label>
+<input type="text" id="txtN2">
+<br><br>
+
+
+<input type="button" onclick="Sum();" value="Sumar">
+<input type="button" onclick="Res();" value="Restar">
+<input type="button" onclick="Mul();" value="Multiplicar">
+<input type="button" onclick="Div();" value="Dividir">
+
+</fieldset>
+<img src="https://play-lh.googleusercontent.com/teegsEGjmomH-MHD-A_BSwapI5ry6EIVOKBVl--Q6BkJ3kfigBezEqoJU1ZYcn9_Vv-X"
+</body>
+<script>
+function Sum() {
+var n1 = document.getElementById('txtN1').value;
+var n2 = document.getElementById('txtN2').value;
+
+var Sum = parseInt(n1) + parseInt(n2);
+alert("La suma de "+n1+" y "+n2+" es: "+Sum);
+
+}
+
+function Res() {
+var n1 = document.getElementById('txtN1').value;
+var n2 = document.getElementById('txtN2').value;
+
+var Res = parseInt(n1) - parseInt(n2);
+alert("La resta de "+n1+" y "+n2+" es: "+Res);
+
+}
+
+function Mul() {
+var n1 = document.getElementById('txtN1').value;
+var n2 = document.getElementById('txtN2').value;
+
+var Mul = parseInt(n1) * parseInt(n2);
+alert("La multiplicacion de "+n1+" y "+n2+" es: "+Mul);
+
+}
+
+function Div() {
+var n1 = document.getElementById('txtN1').value;
+var n2 = document.getElementById('txtN2').value;
+
+var Div = parseInt(n1) / parseInt(n2);
+alert("La resta de "+n1+" y "+n2+" es: "+Div);
+
+}
+</script>
+</html>

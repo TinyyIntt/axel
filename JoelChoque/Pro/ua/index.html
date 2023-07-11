@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>Hola!</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<h1>Formulario de que tan racista eres.</h1>
+	<br>
+	<h3>Rarito: 0 a 1pts</h3>
+	<h3>Normal: 2 a 3pts</h3>
+	<h3>Racista: 4 a 5pts</h3>
+
+	<section>
+	<form action="Racista?">
+		<div class="form">
+			<p>Cuando compras un producto a un vendedor ambulante, te refieres a él o ella por su color de piel? Por ejemplo: "Negro, dame esto"</p>
+			<div class="box">
+				<label><input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Verdad</label>
+			    <br>
+				<label><input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Falso</label>
+				<br>
+				<label><input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Solo si tengo confianza con el</label>
+			</div>
+			<br>
+			<p>Creo que hay razas de humanos que son más inteligentes que otras</p>
+			<div class="box">
+				<label><input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Chi</label>
+				<br>
+				<label><input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Ño</label>
+			</div>
+			<br>
+			<p>Creo que tratar mal a alguien por su color de piel o nacionalidad es:</p>
+			<div class="box">
+				<label><input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Normal</label>
+				<br>
+				<label><input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> En mis tiempos...</label>
+				<br>
+				<label><input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Esta mal</label>
+			</div>
+			<br>
+			<p>Si voy en el transporte público y noto que hay una mujer mayor de color que va de pie, yo:</p>
+			<div class="box">
+				<label><input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Me bajo del colectivo</label>
+				<br>
+				<label><input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Le sedo mi asiento</label>
+				<br>
+				<label><input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Me le cago de risa</label>
+			</div>
+			<br>
+			<p>Hago amigos que son de un color de piel o nacionalidad a la mía:</p>
+			<div class="box">
+				<label><input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Si, se me hace dificil</label>
+				<br>
+				<label><input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Jamas hablaria con un negro</label>
+				<br>
+				<label><input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Nunca</label>
+			</div>
+		</div>
+	</form>
+	</section>
+	<div class="item">
+		<button onclick="corregir()">CORREGIR</button>
+		<h2>Cantidad de racismo: <span id="resultado"></span></h2>
+	</div>
+
+</body>
+
+<script src="script.js"></script>
+</html>
